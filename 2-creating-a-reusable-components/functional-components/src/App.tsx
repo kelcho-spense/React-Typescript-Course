@@ -15,3 +15,9 @@ function App() {
 }
 
 export default App
+
+// Only one default export per file.
+// Import can be named anything.
+
+// Multiple named exports per file.
+// Must use the exact name when importing.
