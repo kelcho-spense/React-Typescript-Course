@@ -1,6 +1,7 @@
 import './App.css'
 import Greeting from './components/DefaultExports﻿'; // import default export
 import {Greeting2, Farewell, NamedExports} from './components/NamedExports' //import named exports 
+import ClassComponents from './components/ClassComponents' // import class component
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
    <Greeting2 />
    <Farewell />
    <NamedExports />
+   <ClassComponents />
    </>
   )
 }
