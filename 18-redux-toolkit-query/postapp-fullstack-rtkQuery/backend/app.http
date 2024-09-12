@@ -1,0 +1,36 @@
+# Define the server port
+
+# GET /api/posts
+GET http://localhost:8000/api/posts 
+Content-Type: application/json
+
+
+###
+# GET /api/posts/:id
+GET http://localhost:8000/api/posts/66e2a3e6583db4f7620ef6de
+Content-Type: application/json
+ 
+###
+# POST /api/posts
+POST http://localhost:8000/api/posts
+Content-Type: application/json
+
+{ 
+ "title": "New Post",
+ "body": "This is a new post"
+}
+
+###
+# PUT /api/posts/:id
+PUT http://localhost:8000/api/posts/:id 
+Content-Type: application/json
+
+{ 
+ "title": "Updated Post",
+ "content": "This is an updated post" 
+ }
+
+###
+# DELETE /api/posts/:id
+DELETE http://localhost:8000/api/posts/66e2a3e6583db4f7620ef6de
+Content-Type: application/json
