@@ -40,12 +40,27 @@ This repository contains the following key directories and topics:
 
 ## Installation
 
-To get started with this repository, clone the project and install the required dependencies.
+1. Clone the repo: To get started with this repository.
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name/repo_you_want_to_run_code
+```
+2. Install Dependencies:
+
+```bash
 npm install
+```
+3. Run the Project in dev mode:
+
+```bash
+npm run dev
+```
+4. Run the project in production mode: Compile the TypeScript code and run the application.
+
+```bash
+npm run build
+npm run start
 ```
 
 ## Contribution
